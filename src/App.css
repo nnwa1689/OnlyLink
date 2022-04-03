@@ -1,5 +1,32 @@
+@import '~antd/dist/antd.css';
+
+@font-face {
+  font-family: 'NotoSansTC-Regular';
+  font-style: normal;
+  src: url(./fonts/NotoSansTC-Regular.otf);
+  unicode-range: U+4E00-9FFF;
+}
+@font-face {
+  font-family: 'NotoSansTC-Regular';
+  font-style: normal;
+  src: url(./fonts/Lexend-Regular.ttf);
+  unicode-range: U+00-024F;
+}
+
 .App {
   text-align: center;
+  background-color: rgb(155, 73, 223);
+  font-family: 'NotoSansTC-Regular';
+}
+
+body {
+  font-family: 'NotoSansTC-Regular';
+ }
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
 }
 
 .App-logo {
